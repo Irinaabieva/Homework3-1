@@ -1,18 +1,24 @@
 public class Main {
     public static void main(String[] args) {
+        float a = 27.12f;
+        long b = 987678965549L;
+        byte c = 2;
+        short d =786;
+        boolean e = false;
+        short f = 786;
+        short g =-159;
+        short p =27897;
+        byte r = 67;
 
-        int i = 2147483647;
-        byte b = 127;
-        short s = -32768;
-        long l =-9223372036854775808L;
-        float f = 1.5f;
-        double d = 2.6;
-        System.out.println("int = "+i);
-        System.out.println("byte = "+b);
-        System.out.println("short = "+s);
-        System.out.println("long = "+l);
-        System.out.println("float = "+f);
-        System.out.println("double = "+d);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
+        System.out.println(p);
+        System.out.println(r);
 
     }
 }
