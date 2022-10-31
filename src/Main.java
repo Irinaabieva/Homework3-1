@@ -7,6 +7,7 @@ public class Main {
         long l =-9223372036854775808L;
         float f = 1.5f;
         double d = 2.6;
+
         System.out.println("int = "+i);
         System.out.println("byte = "+b);
         System.out.println("short = "+s);
