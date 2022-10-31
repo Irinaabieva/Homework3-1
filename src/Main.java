@@ -1,14 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-
-        byte ludmilaPavlova = 23;
-        byte annaSergeevna = 27;
-        byte ekaterinaAndreevna =30;
-        int allStudents = ludmilaPavlova + annaSergeevna + ekaterinaAndreevna;
-        short papaer = 480;
-        int paperStudent = papaer / allStudents;
-        System.out.println("На каждого ученика рассчитано "+paperStudent+ " листов бумаги");
-
-
+        byte bottleMinute = 8;
+        int bottleTwenty = bottleMinute * 20;
+        System.out.println("За 20 минут машина произвела " +bottleTwenty +" штук");
+        int bottleDay = bottleMinute * 60 * 24;
+        System.out.println("За сутки машина произвела " +bottleDay +" штук");
+        int bottleThreeDay = bottleDay * 3;
+        System.out.println("За 3 дня машина произвела " +bottleThreeDay +" штук");
+        int bottleMonth = bottleDay * 30;
+        System.out.println("За 30 дней машина произвела " +bottleMonth +" штук");
     }
 }
